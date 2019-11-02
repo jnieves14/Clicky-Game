@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "name": "Naruto",
+        "image": "../imgs/Naruto.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Kaguya",
+        "image": "../imgs/Kaguya.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Jiraiya",
+        "image": "../imgs/Jiraiya.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Madara",
+        "image": "../imgs/Madara.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Minato",
+        "image": "../imgs/Minato.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Obito",
+        "image": "../imgs/Obito.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Orochimaru",
+        "image": "../imgs/Orochimaru.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Sasuke",
+        "image": "../imgs/Sasuke.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Tsunade",
+        "image": "../imgs/Tsunade.jpg"
+    },
+    {
+        "id": 10,
+        "name": "MightGuy",
+        "image": "../imgs/MightGuy.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Hiruzen",
+        "image": "../imgs/Hiruzen.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Kakashi",
+        "image": "../imgs/Kakashi.jpg"
+    }
+
+]
