@@ -1,7 +1,7 @@
 import React from "react";
-import Paper from "@material-ui/core/Paper";
+import PaperLayout from "@material-ui/core/Paper";
 
-const PaperLayout = props => (
+const Paper = props => (
     <Paper>
         {props.children}
     </Paper>

@@ -1,4 +1,4 @@
-@import "font-face";
+/* @import "font-face";
 @import url(//db.onlinewebfonts.com/c/73fedd912ba11f583a359ce4c2e742ed?family=Ninja+Naruto);
 @include font-face('Ninja Naruto', 100, normal);
 
@@ -10,4 +10,9 @@
         url("//db.onlinewebfonts.com/t/73fedd912ba11f583a359ce4c2e742ed.woff") format("woff"), 
         url("//db.onlinewebfonts.com/t/73fedd912ba11f583a359ce4c2e742ed.ttf") format("truetype"), 
         url("//db.onlinewebfonts.com/t/73fedd912ba11f583a359ce4c2e742ed.svg#Ninja Naruto") format("svg"); 
+} */
+
+body {
+    font-family: 'Seaweed Script', cursive;
+    font-size: 48px;
 }

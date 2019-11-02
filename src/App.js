@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import GridLayout from "./components/GridLayout";
-import PaperLayout from "./components/PaperLayout";
+import Paper from "./components/PaperLayout";
 import CharacterCard from "./components/CharacterCard";
 import Score from "./components/Score";
 import Alerts from "./components/Alerts";
@@ -74,27 +74,27 @@ class App extends Component {
         <GridLayout container direction="column" style={{ margin: "0 auto", maxWidth: 945 }}>
 
           <GridLayout item lg={12}>
-            <PaperLayout>
+            <Paper>
               {this.state.alertMessage === "GOOD CHOICE!" ? (
                 <Alerts message={this.state.alertMessage} style={{ color: "green" }} />
               ) : (
                   <Alerts message={this.state.alertMessage} style={{ color: "red" }} />
                 )}
-            </PaperLayout>
+            </Paper>
           </GridLayout>
 
           <GridLayout container justify="space-between">
 
             <GridLayout item lg={6} md={6} sm={12} xs={12}>
-              <PaperLayout>
+              <Paper>
                 <Score type="Score" score={this.state.chosenChars.length} />
-              </PaperLayout>
+              </Paper>
             </GridLayout>
 
             <GridLayout item lg={6} md={6} sm={12} xs={12}>
-              <PaperLayout>
+              <Paper>
                 <Score type="Top Score" score={this.state.topScore} />
-              </PaperLayout>
+              </Paper>
             </GridLayout>
 
           </GridLayout>

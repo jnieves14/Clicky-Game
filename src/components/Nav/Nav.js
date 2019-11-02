@@ -11,7 +11,7 @@ const Nav = props => {
         <AppBar position="fixed" {...props}>
             <Toolbar>
                 <Typography variant="headline" color="inherit" align="center">
-                Clicky Game
+                Naruto Clicky Game
                 </Typography>
             </Toolbar>
         </AppBar>
