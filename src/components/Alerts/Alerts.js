@@ -1,5 +1,5 @@
 import React from "react";
-import "./Alert.css";
+import "./Alerts.css";
 
 const Alert = props => (
     <div className="default" style={props.style}>
@@ -11,4 +11,4 @@ const Alert = props => (
     </div>
 )
 
-export default Alert;
+export default Alerts;
