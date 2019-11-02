@@ -1,9 +1,9 @@
 import React from "react";
 import Grid from '@material-ui/core/Grid';
 
-const Grid = props =>
+const GridLayout = props =>
     <Grid {...props}>
         {props.children}
     </Grid>
 
-export default Grid;
+export default GridLayout;

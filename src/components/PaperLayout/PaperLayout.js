@@ -1,10 +1,10 @@
 import React from "react";
 import Paper from "@material-ui/core/Paper";
 
-const Paper = props => (
+const PaperLayout = props => (
     <Paper>
         {props.children}
     </Paper>
 )
 
-export default Paper;
+export default PaperLayout;

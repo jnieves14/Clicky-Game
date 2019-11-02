@@ -1,5 +1,5 @@
 import React from "react";
-import "./Character.css";
+import "./CharacterCard.css";
 
 
 const CharacterCard = ({ id, name, image, handleChosen }) => (

@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import Grid from "./components/Grid";
-import Paper from "./components/Paper";
+import GridLayout from "./components/GridLayout";
+import PaperLayout from "./components/PaperLayout";
 import CharacterCard from "./components/CharacterCard";
 import Score from "./components/Score";
 import Alerts from "./components/Alerts";
 import Nav from "./components/Nav";
-// import BottomNavMDC from "./components/BottomNavMDC";
 import characters from "./characters.json";
 
 class App extends Component {
@@ -72,39 +71,39 @@ class App extends Component {
       <div>
         <Nav style={{ background: "#313133", marginBottom: "5px" }} />
 
-        <Grid container direction="column" style={{ margin: "0 auto", maxWidth: 945 }}>
+        <GridLayout container direction="column" style={{ margin: "0 auto", maxWidth: 945 }}>
 
-          <Grid item lg={12}>
-            <Paper>
+          <GridLayout item lg={12}>
+            <PaperLayout>
               {this.state.alertMessage === "GOOD CHOICE!" ? (
                 <Alerts message={this.state.alertMessage} style={{ color: "green" }} />
               ) : (
                   <Alerts message={this.state.alertMessage} style={{ color: "red" }} />
                 )}
-            </Paper>
-          </Grid>
+            </PaperLayout>
+          </GridLayout>
 
-          <Grid container justify="space-between">
+          <GridLayout container justify="space-between">
 
-            <Grid item lg={6} md={6} sm={12} xs={12}>
-              <Paper>
+            <GridLayout item lg={6} md={6} sm={12} xs={12}>
+              <PaperLayout>
                 <Score type="Score" score={this.state.chosenChars.length} />
-              </Paper>
-            </Grid>
+              </PaperLayout>
+            </GridLayout>
 
-            <Grid item lg={6} md={6} sm={12} xs={12}>
-              <Paper>
+            <GridLayout item lg={6} md={6} sm={12} xs={12}>
+              <PaperLayout>
                 <Score type="Top Score" score={this.state.topScore} />
-              </Paper>
-            </Grid>
+              </PaperLayout>
+            </GridLayout>
 
-          </Grid>
+          </GridLayout>
 
-        </Grid>
+        </GridLayout>
 
-        <Grid container spacing={24} justify="center" style={{ maxWidth: 945, margin: "0 auto" }}>
+        <GridLayout container spacing={24} justify="center" style={{ maxWidth: 945, margin: "0 auto" }}>
           {this.state.characters.map(char => (
-            <Grid item lg={3} md={3} sm={4} xs={6}>
+            <GridLayout item lg={3} md={3} sm={4} xs={6}>
             <CharacterCard
               id={char.id}
               name={char.name}
@@ -112,12 +111,9 @@ class App extends Component {
               key={char.id}
               handleChosen={this.handleChosen}
             />
-            </Grid>
+            </GridLayout>
           ))}
-        </Grid>
-        {/* <BottomNavMDC style={{ background: "#313133", marginTop: "17.5px", paddingTop: "15px", borderTop: "2.5px solid slategray" }}>
-          <a href="https://github.com/philiptd5000/clicky-game-REACT" target="_blank" className="link" alt="clicky-game-github-link"><i className="fa fa-github fa-2x"></i></a>
-        </BottomNavMDC> */}
+        </GridLayout>
 
       </div>
     )

@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 const Nav = props => {
     return(
         <div>
-        <AppBar position="static" {...props}>
+        <AppBar position="fixed" {...props}>
             <Toolbar>
                 <Typography variant="headline" color="inherit" align="center">
                 Clicky Game
