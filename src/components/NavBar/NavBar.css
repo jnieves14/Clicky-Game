@@ -15,4 +15,17 @@
 body {
     font-family: 'Seaweed Script', cursive;
     font-size: 48px;
+    padding: 5%;
+}
+
+@media (max-width: 960px) {
+    .default {
+        padding: 5%;
+    } 
+}
+
+@media (max-width: 620px) {
+    .default {
+        padding: 5%;
+    } 
 }
