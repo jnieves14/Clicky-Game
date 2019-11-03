@@ -15,4 +15,6 @@ const CharacterCard = ({ id, name, image, handlePicked }) => (
     </div>
 )
 
+  
+
 export default CharacterCard;

@@ -2,63 +2,63 @@
     {
         "id": 1,
         "name": "Naruto",
-        // "image": "./imgs/Naruto.png"
-        "image": "https://c-6rtwjumjzx7877x24nrlncx2ewfspjwx2ehtr.g00.ranker.com/g00/3_c-6bbb.wfspjw.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fnrlnc.wfspjw.htrx2fzx78jw_stij_nrlx2f38x2f6192387x2ftwnlnsfqx2fsfwzyt-zezrfpn-umtyt-z16x3fbx3d105x26vx3d05x26krx3duoulx26knyx3dhwtux26hwtux3dkfhjx78x26n65h.rfwpx3dnrflj_$/$/$/$/$/$"
+        "image": "./imgs/naruto.png"
+       
     },
     {
         "id": 2,
         "name": "Kaguya",
-        "image": "./imgs/Kaguya.png"
+        "image": "./imgs/kaguya.png"
     },
     {
         "id": 3,
         "name": "Jiraiya",
-        "image": "./imgs/Jiraiya.png"
+        "image": "./imgs/jiraiya.png"
     },
     {
         "id": 4,
         "name": "Madara",
-        "image": "./imgs/Madara.png"
+        "image": "./imgs/madara.png"
     },
     {
         "id": 5,
         "name": "Minato",
-        "image": "./imgs/Minato.png"
+        "image": "./imgs/minato.png"
     },
     {
         "id": 6,
         "name": "Obito",
-        "image": "./imgs/Obito.png"
+        "image": "./imgs/obito.png"
     },
     {
         "id": 7,
         "name": "Orochimaru",
-        "image": "./imgs/Orochimaru.png"
+        "image": "./imgs/orochimaru.png"
     },
     {
         "id": 8,
         "name": "Sasuke",
-        "image": "./imgs/Sasuke.png"
+        "image": "./imgs/sasuke.png"
     },
     {
         "id": 9,
         "name": "Tsunade",
-        "image": "./imgs/Tsunade.png"
+        "image": "./imgs/tsunade.png"
     },
     {
         "id": 10,
         "name": "MightGuy",
-        "image": "./imgs/MightGuy.png"
+        "image": "./imgs/mightguy.png"
     },
     {
         "id": 11,
         "name": "Hiruzen",
-        "image": "./imgs/Hiruzen.png"
+        "image": "./imgs/hiruzen.png"
     },
     {
         "id": 12,
         "name": "Kakashi",
-        "image": "./imgs/Kakashi.png"
+        "image": "./imgs/kakashi.png"
     }
 
 ]
