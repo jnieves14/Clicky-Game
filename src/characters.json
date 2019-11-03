@@ -2,62 +2,62 @@
     {
         "id": 1,
         "name": "Naruto",
-        "image": "imgs/Naruto.jpg"
+        "image": "imgs/Naruto.JPG"
     },
     {
         "id": 2,
         "name": "Kaguya",
-        "image": "imgs/Kaguya.jpg"
+        "image": "imgs/Kaguya.JPG"
     },
     {
         "id": 3,
         "name": "Jiraiya",
-        "image": "imgs/Jiraiya.jpg"
+        "image": "imgs/Jiraiya.JPG"
     },
     {
         "id": 4,
         "name": "Madara",
-        "image": "imgs/Madara.jpg"
+        "image": "imgs/Madara.JPG"
     },
     {
         "id": 5,
         "name": "Minato",
-        "image": "imgs/Minato.jpg"
+        "image": "imgs/Minato.JPG"
     },
     {
         "id": 6,
         "name": "Obito",
-        "image": "imgs/Obito.jpg"
+        "image": "imgs/Obito.JPG"
     },
     {
         "id": 7,
         "name": "Orochimaru",
-        "image": "imgs/Orochimaru.jpg"
+        "image": "imgs/Orochimaru.JPG"
     },
     {
         "id": 8,
         "name": "Sasuke",
-        "image": "imgs/Sasuke.jpg"
+        "image": "imgs/Sasuke.JPG"
     },
     {
         "id": 9,
         "name": "Tsunade",
-        "image": "imgs/Tsunade.jpg"
+        "image": "imgs/Tsunade.JPG"
     },
     {
         "id": 10,
         "name": "MightGuy",
-        "image": "imgs/MightGuy.jpg"
+        "image": "imgs/MightGuy.JPG"
     },
     {
         "id": 11,
         "name": "Hiruzen",
-        "image": "imgs/Hiruzen.jpg"
+        "image": "imgs/Hiruzen.JPG"
     },
     {
         "id": 12,
         "name": "Kakashi",
-        "image": "imgs/Kakashi.jpg"
+        "image": "imgs/Kakashi.JPG"
     }
 
 ]
