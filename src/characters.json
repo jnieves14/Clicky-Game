@@ -2,12 +2,12 @@
     {
         "id": 1,
         "name": "Naruto",
-        "image": "../imgs/Naruto.png"
+        "image": "/imgs/Naruto.png"
     },
     {
         "id": 2,
         "name": "Kaguya",
-        "image": "../imgs/Kaguya.png"
+        "image": "/imgs/Kaguya.png"
     },
     {
         "id": 3,

@@ -8,10 +8,7 @@ const CharacterCard = ({ id, name, image, handlePicked }) => (
             key={id}
             data-id={id}
             name={name}
-            // style={{ backgroundImage: `url(${image})` }}
-            style={{ backgroundImage: <img
-                src={props.image}
-                /> }}
+            style={{ backgroundImage: `url(${image})` }}
             onClick={handlePicked}
         >
         </div>
