@@ -2,63 +2,63 @@
     {
         "id": 1,
         "name": "Naruto",
-        "image": "./imgs/naruto.png"
+        "image": "./imgs/naruto.PNG"
        
     },
     {
         "id": 2,
         "name": "Kaguya",
-        "image": "./imgs/kaguya.png"
+        "image": "./imgs/kaguya.PNG"
     },
     {
         "id": 3,
         "name": "Jiraiya",
-        "image": "./imgs/jiraiya.png"
+        "image": "./imgs/jiraiya.PNG"
     },
     {
         "id": 4,
         "name": "Madara",
-        "image": "./imgs/madara.png"
+        "image": "./imgs/madara.PNG"
     },
     {
         "id": 5,
         "name": "Minato",
-        "image": "./imgs/minato.png"
+        "image": "./imgs/minato.PNG"
     },
     {
         "id": 6,
         "name": "Obito",
-        "image": "./imgs/obito.png"
+        "image": "./imgs/obito.PNG"
     },
     {
         "id": 7,
         "name": "Orochimaru",
-        "image": "./imgs/orochimaru.png"
+        "image": "./imgs/orochimaru.PNG"
     },
     {
         "id": 8,
         "name": "Sasuke",
-        "image": "./imgs/sasuke.png"
+        "image": "./imgs/sasuke.PNG"
     },
     {
         "id": 9,
         "name": "Tsunade",
-        "image": "./imgs/tsunade.png"
+        "image": "./imgs/tsunade.PNG"
     },
     {
         "id": 10,
         "name": "MightGuy",
-        "image": "./imgs/mightguy.png"
+        "image": "./imgs/mightguy.PNG"
     },
     {
         "id": 11,
         "name": "Hiruzen",
-        "image": "./imgs/hiruzen.png"
+        "image": "./imgs/hiruzen.PNG"
     },
     {
         "id": 12,
         "name": "Kakashi",
-        "image": "./imgs/kakashi.png"
+        "image": "./imgs/kakashi.PNG"
     }
 
 ]
