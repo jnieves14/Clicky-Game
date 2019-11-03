@@ -46,7 +46,8 @@ class App extends Component {
       this.setState(this.state = newState)
     } else {
       newState.pickedChars.push(name)
-      newState.message = `GOOD CHOICE!`
+      // let's add a form next time to input user name!
+      newState.message = `NICE CHOICE, USER-CHAN!`
       this.setState(this.state = newState)
     }
     cb(newState, this.alertWinner)
