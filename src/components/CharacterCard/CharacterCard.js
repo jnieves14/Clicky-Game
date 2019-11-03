@@ -1,8 +1,7 @@
 import React from "react";
 import "./CharacterCard.css";
 
-
-const CharacterCard = ({ id, name, image, handleChosen }) => (
+const CharacterCard = ({ id, name, image, handlePicked }) => (
     <div>
         <div
             className="card"
@@ -10,7 +9,7 @@ const CharacterCard = ({ id, name, image, handleChosen }) => (
             data-id={id}
             name={name}
             style={{ backgroundImage: `url(${image})` }}
-            onClick={handleChosen}
+            onClick={handlePicked}
         >
         </div>
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
-import "./Alerts.css";
+import "./Alert.css";
 
-const Alerts = props => (
+const Alert = props => (
     <div className="default" style={props.style}>
         {props.message ? (
             <p>{props.message}</p>
@@ -11,4 +11,4 @@ const Alerts = props => (
     </div>
 )
 
-export default Alerts;
+export default Alert;

@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
 import GridLayout from "./components/GridLayout";
-import Paper from "./components/PaperLayout";
+import PaperLayout from "./components/PaperLayout";
 import CharacterCard from "./components/CharacterCard";
 import Score from "./components/Score";
-import Alerts from "./components/Alerts";
-import Nav from "./components/Nav";
+import Alert from "./components/Alert";
+import NavBar from "./components/NavBar";
 import characters from "./characters.json";
 
 class App extends Component {
+
   state = {
     characters: characters,
-    chosenChars: [],
+    pickedChars: [],
     topScore: 0,
     alertMessage: ""
   }
 
-  handleChosen = event => {
+  handlePicked = event => {
+
     const name = event.target.attributes.getNamedItem("name").value;
     this.shuffleCharacters()
     this.checkGuess(name, this.updateTopScore)
@@ -38,12 +40,12 @@ class App extends Component {
 
   checkGuess = (name, cb) => {
     const newState = { ...this.state };
-    if (newState.chosenChars.includes(name)) {
-      newState.alertMessage = `YOU ALREADY CHOSE "${name.toUpperCase()}"!`
-      newState.chosenChars = []
+    if (newState.pickedChars.includes(name)) {
+      newState.alertMessage = `YOU ALREADY PICKED "${name.toUpperCase()}"!`
+      newState.pickedChars = []
       this.setState(this.state = newState)
     } else {
-      newState.chosenChars.push(name)
+      newState.pickedChars.push(name)
       newState.alertMessage = `GOOD CHOICE!`
       this.setState(this.state = newState)
     }
@@ -51,7 +53,7 @@ class App extends Component {
   }
 
   updateTopScore = (newState, cb) => {
-    if (newState.chosenChars.length > newState.topScore) {
+    if (newState.pickedChars.length > newState.topScore) {
       newState.topScore++
       this.setState(this.state = newState)
     }
@@ -59,9 +61,9 @@ class App extends Component {
   }
 
   alertWinner = (newState) => {
-    if (newState.chosenChars.length === 12) {
+    if (newState.pickedChars.length === 12) {
       newState.alertMessage = "CHAMPION!";
-      newState.chosenChars = [];
+      newState.pickedChars = [];
       this.setState(this.state = newState)
     }
   }
@@ -69,32 +71,32 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Nav style={{ background: "#313133", marginBottom: "5px" }} />
+        <NavBar style={{ background: "#313133", marginBottom: "5px" }} />
 
         <GridLayout container direction="column" style={{ margin: "0 auto", maxWidth: 945 }}>
 
           <GridLayout item lg={12}>
-            <Paper>
+            <PaperLayout>
               {this.state.alertMessage === "GOOD CHOICE!" ? (
-                <Alerts message={this.state.alertMessage} style={{ color: "green" }} />
+                <Alert message={this.state.alertMessage} style={{ color: "green" }} />
               ) : (
-                  <Alerts message={this.state.alertMessage} style={{ color: "red" }} />
+                  <Alert message={this.state.alertMessage} style={{ color: "red" }} />
                 )}
-            </Paper>
+            </PaperLayout>
           </GridLayout>
 
           <GridLayout container justify="space-between">
 
             <GridLayout item lg={6} md={6} sm={12} xs={12}>
-              <Paper>
-                <Score type="Score" score={this.state.chosenChars.length} />
-              </Paper>
+              <PaperLayout>
+                <Score type="Score" score={this.state.pickedChars.length} />
+              </PaperLayout>
             </GridLayout>
 
             <GridLayout item lg={6} md={6} sm={12} xs={12}>
-              <Paper>
+              <PaperLayout>
                 <Score type="Top Score" score={this.state.topScore} />
-              </Paper>
+              </PaperLayout>
             </GridLayout>
 
           </GridLayout>
@@ -109,7 +111,7 @@ class App extends Component {
               name={char.name}
               image={char.image}
               key={char.id}
-              handleChosen={this.handleChosen}
+              handlePicked={this.handlePicked}
             />
             </GridLayout>
           ))}

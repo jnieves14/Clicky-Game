@@ -2,10 +2,10 @@ import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-// import "./Nav.scss";
-import "./Nav.css";
+// import "./NavBar.scss";
+import "./NavBar.css";
 
-const Nav = props => {
+const NavBar = props => {
     return(
         <div>
         <AppBar position="fixed" {...props}>
@@ -18,4 +18,4 @@ const Nav = props => {
         </div>
     )
 }
-export default Nav;
+export default NavBar;
