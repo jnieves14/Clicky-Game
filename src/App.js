@@ -13,7 +13,7 @@ class App extends Component {
     characters: characters,
     pickedChars: [],
     topScore: 0,
-    alertMessage: ""
+    message: ""
   }
 
   handlePicked = event => {
@@ -41,12 +41,12 @@ class App extends Component {
   checkGuess = (name, cb) => {
     const newState = { ...this.state };
     if (newState.pickedChars.includes(name)) {
-      newState.alertMessage = `YOU ALREADY PICKED "${name.toUpperCase()}"!`
+      newState.message = `YOU ALREADY PICKED "${name.toUpperCase()}"!`
       newState.pickedChars = []
       this.setState(this.state = newState)
     } else {
       newState.pickedChars.push(name)
-      newState.alertMessage = `GOOD CHOICE!`
+      newState.message = `GOOD CHOICE!`
       this.setState(this.state = newState)
     }
     cb(newState, this.alertWinner)
@@ -62,7 +62,7 @@ class App extends Component {
 
   alertWinner = (newState) => {
     if (newState.pickedChars.length === 12) {
-      newState.alertMessage = "CHAMPION!";
+      newState.message = "CHAMPION!";
       newState.pickedChars = [];
       this.setState(this.state = newState)
     }
@@ -77,10 +77,10 @@ class App extends Component {
 
           <GridLayout item lg={12}>
             <PaperLayout>
-              {this.state.alertMessage === "GOOD CHOICE!" ? (
-                <Alert message={this.state.alertMessage} style={{ color: "green" }} />
+              {this.state.message === "GOOD CHOICE!" ? (
+                <Alert message={this.state.message} style={{ color: "green" }} />
               ) : (
-                  <Alert message={this.state.alertMessage} style={{ color: "red" }} />
+                  <Alert message={this.state.message} style={{ color: "red" }} />
                 )}
             </PaperLayout>
           </GridLayout>
