@@ -14,3 +14,17 @@
 .card:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
+
+/* @media (max-width: 960px) {
+    .card {
+        width: 150px;
+        height: 150px;  
+    } 
+} */
+
+@media (max-width: 620px) {
+    .card {
+        width: 100px;
+        height: 100px;
+    } 
+}

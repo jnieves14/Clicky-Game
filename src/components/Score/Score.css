@@ -1,5 +1,6 @@
 .score {
-    padding: 20px;
+    padding: 5%;
+    margin-top: 10%;
     font-family: 'Seaweed Script', cursive;
     font-size: 2rem;
     text-align: center;
@@ -8,11 +9,13 @@
 @media (max-width: 960px) {
     .score {
         font-size: 2rem;
+        margin-top: 3%;
     } 
 }
 
 @media (max-width: 620px) {
     .score {
         font-size: 2rem;
+        margin-top: 3%;
     } 
 }
