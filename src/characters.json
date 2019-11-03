@@ -2,12 +2,13 @@
     {
         "id": 1,
         "name": "Naruto",
-        "image": "/imgs/Naruto.png"
+        // "image": "./imgs/Naruto.png"
+        "image": "https://c-6rtwjumjzx7877x24nrlncx2ewfspjwx2ehtr.g00.ranker.com/g00/3_c-6bbb.wfspjw.htr_/c-6RTWJUMJZX77x24myyux78x3ax2fx2fnrlnc.wfspjw.htrx2fzx78jw_stij_nrlx2f38x2f6192387x2ftwnlnsfqx2fsfwzyt-zezrfpn-umtyt-z16x3fbx3d105x26vx3d05x26krx3duoulx26knyx3dhwtux26hwtux3dkfhjx78x26n65h.rfwpx3dnrflj_$/$/$/$/$/$"
     },
     {
         "id": 2,
         "name": "Kaguya",
-        "image": "/imgs/Kaguya.png"
+        "image": "./imgs/Kaguya.png"
     },
     {
         "id": 3,
