@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Naruto",
-        "image": "./imgs/Naruto.jpg"
+        "image": "../imgs/Naruto.jpg"
     },
     {
         "id": 2,
